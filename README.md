@@ -27,95 +27,11 @@ Pondremos una marca de tiempo antes y después para al final hacer la medición 
 número máximo de hilos que en nuestro caso es de 24. 
 Podemos ver el resultado en el txt generado: 
 
-INICIO ******************************************************************  
-Para tamaño de vector de 400000 elementos: 
-SECUENCIAL:Tiempo transcurrido 21717micro segundos 
-PARALELO: Tiempo transcurrido 16616micro segundos 
- *********** CONCLUSIONES *********************** 
-PARALELO: se obtiene mejor rendimiento con un tiempo de 16616micro segundos frente a 21717micro segundos 
-Con un numero de hilos = 1 el incremento de tiempo es 1998 micro segundos 
-Con un numero de hilos = 2 el incremento de tiempo es 2068 micro segundos 
-Con un numero de hilos = 3 el incremento de tiempo es 1025 micro segundos 
-Con un numero de hilos = 4 el incremento de tiempo es 1524 micro segundos 
-Con un numero de hilos = 5 el incremento de tiempo es 2231 micro segundos 
-Con un numero de hilos = 6 el incremento de tiempo es 2586 micro segundos 
-Con un numero de hilos = 7 el incremento de tiempo es 3237 micro segundos 
-Con un numero de hilos = 8 el incremento de tiempo es 3965 micro segundos 
-Con un numero de hilos = 9 el incremento de tiempo es 4199 micro segundos 
-Con un numero de hilos = 10 el incremento de tiempo es 4747 micro segundos 
-Con un numero de hilos = 11 el incremento de tiempo es 5480 micro segundos 
-Con un numero de hilos = 12 el incremento de tiempo es 5821 micro segundos 
-Con un numero de hilos = 13 el incremento de tiempo es 7400 micro segundos 
-Con un numero de hilos = 14 el incremento de tiempo es 6916 micro segundos 
-Con un numero de hilos = 15 el incremento de tiempo es 7313 micro segundos 
-Con un numero de hilos = 16 el incremento de tiempo es 8074 micro segundos 
-Con un numero de hilos = 17 el incremento de tiempo es 8755 micro segundos 
-Con un numero de hilos = 18 el incremento de tiempo es 9356 micro segundos 
-Con un numero de hilos = 19 el incremento de tiempo es 9667 micro segundos 
-Con un numero de hilos = 20 el incremento de tiempo es 11045 micro segundos 
-Con un numero de hilos = 21 el incremento de tiempo es 12624 micro segundos 
-Con un numero de hilos = 22 el incremento de tiempo es 12315 micro segundos 
-Con un numero de hilos = 23 el incremento de tiempo es 13669 micro segundos 
-Con un numero de hilos = 24 el incremento de tiempo es 12667 micro segundos 
 
 
 #### b.2) Coste de una barrera de sincronización en función del número de hilos que se sincronizan.
 Colocamos ahora una barrera para ver la comparativa con los resultados anteriores. 
 
-INICIO ******************************************************************  
-Para tamaño de vector de 500000 elementos: 
-SECUENCIAL:Tiempo transcurrido 26887micro segundos 
-PARALELO: Tiempo transcurrido 16170micro segundos 
- *********** CONCLUSIONES *********************** 
-PARALELO: se obtiene mejor rendimiento con un tiempo de 16170micro segundos frente a 26887micro segundos 
-Con un numero de hilos = 1 eel incremento de tiempo de crear la región paralela es 1149 micro segundos 
-Con un numero de hilos = 1 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 2 eel incremento de tiempo de crear la región paralela es 2643 micro segundos 
-Con un numero de hilos = 2 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 3 eel incremento de tiempo de crear la región paralela es 994 micro segundos 
-Con un numero de hilos = 3 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 4 eel incremento de tiempo de crear la región paralela es 1534 micro segundos 
-Con un numero de hilos = 4 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 5 eel incremento de tiempo de crear la región paralela es 1989 micro segundos 
-Con un numero de hilos = 5 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 6 eel incremento de tiempo de crear la región paralela es 3201 micro segundos 
-Con un numero de hilos = 6 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 7 eel incremento de tiempo de crear la región paralela es 3222 micro segundos 
-Con un numero de hilos = 7 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 8 eel incremento de tiempo de crear la región paralela es 3682 micro segundos 
-Con un numero de hilos = 8 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 9 eel incremento de tiempo de crear la región paralela es 4835 micro segundos 
-Con un numero de hilos = 9 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 10 eel incremento de tiempo de crear la región paralela es 4994 micro segundos 
-Con un numero de hilos = 10 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 11 eel incremento de tiempo de crear la región paralela es 5293 micro segundos 
-Con un numero de hilos = 11 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 12 eel incremento de tiempo de crear la región paralela es 5924 micro segundos 
-Con un numero de hilos = 12 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 13 eel incremento de tiempo de crear la región paralela es 6734 micro segundos 
-Con un numero de hilos = 13 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 14 eel incremento de tiempo de crear la región paralela es 7192 micro segundos 
-Con un numero de hilos = 14 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 15 eel incremento de tiempo de crear la región paralela es 8176 micro segundos 
-Con un numero de hilos = 15 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 16 eel incremento de tiempo de crear la región paralela es 8142 micro segundos 
-Con un numero de hilos = 16 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 17 eel incremento de tiempo de crear la región paralela es 8909 micro segundos 
-Con un numero de hilos = 17 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 18 eel incremento de tiempo de crear la región paralela es 9575 micro segundos 
-Con un numero de hilos = 18 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 19 eel incremento de tiempo de crear la región paralela es 10098 micro segundos 
-Con un numero de hilos = 19 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 20 eel incremento de tiempo de crear la región paralela es 11327 micro segundos 
-Con un numero de hilos = 20 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 21 eel incremento de tiempo de crear la región paralela es 11350 micro segundos 
-Con un numero de hilos = 21 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 22 eel incremento de tiempo de crear la región paralela es 11882 micro segundos 
-Con un numero de hilos = 22 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 23 eel incremento de tiempo de crear la región paralela es 12853 micro segundos 
-Con un numero de hilos = 23 el incremento de tiempo de poner una barrera es 0 micro segundos 
-Con un numero de hilos = 24 eel incremento de tiempo de crear la región paralela es 13644 micro segundos 
-Con un numero de hilos = 24 el incremento de tiempo de poner una barrera es 0 micro segundos 
 
 
 Por los resultados que vemos no tiene coste una barrera para el tiempo final. Pero hay que tener en cuenta que he puesto el reloj justo antes de crear la barrera y justo después. 
@@ -289,89 +205,6 @@ de utilizar:  https://www.openmp.org/spec-html/5.0/openmpsu160.html
 Análisis de rendimiento: 
 Para este análisis veremos el resultado arrojado para extraer las conclusiones: 
 
-***************************************************************************  
- ***************************************************************************  
- para N = 10 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1399259889 
-El tiempo de ejecución fue: 0.0247557999 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 5.9798519778 
-El tiempo de ejecución fue: 0.0013164000 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 100 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415759869 
-El tiempo de ejecución fue: 0.0021331001 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2531519738 
-El tiempo de ejecución fue: 0.0012013998 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 1000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415924869 
-El tiempo de ejecución fue: 0.0020601000 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2801849738 
-El tiempo de ejecución fue: 0.0011924000 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 10000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415926519 
-El tiempo de ejecución fue: 0.0093949998 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2828853038 
-El tiempo de ejecución fue: 0.0019915001 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 100000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415926536 
-El tiempo de ejecución fue: 0.0137211999 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2831553071 
-El tiempo de ejecución fue: 0.0058574001 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 1000000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415926536 
-El tiempo de ejecución fue: 0.0059239999 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2831823072 
-El tiempo de ejecución fue: 0.0390623999 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 10000000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415926536 
-El tiempo de ejecución fue: 0.0332058000 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2831850072 
-El tiempo de ejecución fue: 0.2830502999 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 100000000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415926536 
-El tiempo de ejecución fue: 0.1962186999 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2831852772 
-El tiempo de ejecución fue: 1.9882595001 segundos 
- ***************************************************************************  
- ***************************************************************************  
- para N = 1000000000 
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO EN PARALELO: Aproximación de pi con regla del trapecio: 3.1415926536 
-El tiempo de ejecución fue: 1.6704891000 segundos 
-  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-EJECUTADO SECUENCIAL: Aproximación de pi con regla del trapecio: 6.2831853042 
-El tiempo de ejecución fue: 18.8564798001 segundos 
- ***************************************************************************  
- *************************************************************************** 
  
 Análisis de rendimiento: 
 Hemos subrayado en amarillo el punto cuando la paralelización empieza a ser óptima. Ésta se 
