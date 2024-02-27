@@ -1,0 +1,1748 @@
+ INICIO ****************************************************************** 
+Para tamaño de vector de 100000 elementos:SECUENCIAL:Tiempo transcurrido 6812micro segundos
+PARALELO: Tiempo transcurrido 10524micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se obtiene mejor rendimiento con un tiempo de 6812micro segundos frente a 10524micro segundos
+Con un numero de hilos = 1 eel incremento de tiempo de crear la región paralela es 31 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 2 eel incremento de tiempo de crear la región paralela es 4197 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 3 eel incremento de tiempo de crear la región paralela es 2118 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 4 eel incremento de tiempo de crear la región paralela es 1798 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 5 eel incremento de tiempo de crear la región paralela es 2119 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 6 eel incremento de tiempo de crear la región paralela es 2494 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 7 eel incremento de tiempo de crear la región paralela es 3293 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 8 eel incremento de tiempo de crear la región paralela es 3801 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 9 eel incremento de tiempo de crear la región paralela es 4365 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 10 eel incremento de tiempo de crear la región paralela es 4878 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 11 eel incremento de tiempo de crear la región paralela es 5580 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 12 eel incremento de tiempo de crear la región paralela es 6169 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 13 eel incremento de tiempo de crear la región paralela es 6530 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 14 eel incremento de tiempo de crear la región paralela es 7493 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 15 eel incremento de tiempo de crear la región paralela es 8278 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 16 eel incremento de tiempo de crear la región paralela es 8752 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 17 eel incremento de tiempo de crear la región paralela es 9124 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 18 eel incremento de tiempo de crear la región paralela es 9765 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 19 eel incremento de tiempo de crear la región paralela es 10731 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 20 eel incremento de tiempo de crear la región paralela es 11553 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 21 eel incremento de tiempo de crear la región paralela es 12129 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 22 eel incremento de tiempo de crear la región paralela es 14059 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 23 eel incremento de tiempo de crear la región paralela es 14748 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 24 eel incremento de tiempo de crear la región paralela es 15665 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+ INICIO ****************************************************************** 
+Para tamaño de vector de 500000 elementos:SECUENCIAL:Tiempo transcurrido 33970micro segundos
+PARALELO: Tiempo transcurrido 14313micro segundos
+ *********** CONCLUSIONES ***********************
+PARALELO: se obtiene mejor rendimiento con un tiempo de 14313micro segundos frente a 33970micro segundos
+Con un numero de hilos = 1 eel incremento de tiempo de crear la región paralela es 32 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 2 eel incremento de tiempo de crear la región paralela es 1621 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 3 eel incremento de tiempo de crear la región paralela es 4388 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 4 eel incremento de tiempo de crear la región paralela es 1458 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 5 eel incremento de tiempo de crear la región paralela es 2115 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 6 eel incremento de tiempo de crear la región paralela es 2671 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 7 eel incremento de tiempo de crear la región paralela es 3149 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 8 eel incremento de tiempo de crear la región paralela es 3595 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 9 eel incremento de tiempo de crear la región paralela es 4158 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 10 eel incremento de tiempo de crear la región paralela es 4735 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 11 eel incremento de tiempo de crear la región paralela es 5505 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 12 eel incremento de tiempo de crear la región paralela es 6614 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 13 eel incremento de tiempo de crear la región paralela es 6777 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 14 eel incremento de tiempo de crear la región paralela es 7300 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 15 eel incremento de tiempo de crear la región paralela es 7839 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 16 eel incremento de tiempo de crear la región paralela es 8713 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 17 eel incremento de tiempo de crear la región paralela es 8969 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 18 eel incremento de tiempo de crear la región paralela es 9629 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 19 eel incremento de tiempo de crear la región paralela es 10433 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 20 eel incremento de tiempo de crear la región paralela es 11950 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 21 eel incremento de tiempo de crear la región paralela es 13305 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 22 eel incremento de tiempo de crear la región paralela es 13224 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 23 eel incremento de tiempo de crear la región paralela es 14684 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 24 eel incremento de tiempo de crear la región paralela es 14987 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+ INICIO ****************************************************************** 
+Para tamaño de vector de 500000 elementos:SECUENCIAL:Tiempo transcurrido 36005micro segundos
+PARALELO: Tiempo transcurrido 13275micro segundos
+ *********** CONCLUSIONES ***********************
+PARALELO: se obtiene mejor rendimiento con un tiempo de 13275micro segundos frente a 36005micro segundos
+Soy el hilo8pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo11Soy el hilopasando la barrera1pasando la barrera
+
+Soy el hilo19pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo0pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo9pasando la barrera
+Con un numero de hilos = 1 eel incremento de tiempo de crear la región paralela es 19425 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 2 eel incremento de tiempo de crear la región paralela es 15296 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 3 eel incremento de tiempo de crear la región paralela es 14755 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 4 eel incremento de tiempo de crear la región paralela es 16498 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 5 eel incremento de tiempo de crear la región paralela es 14587 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 6 eel incremento de tiempo de crear la región paralela es 16653 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 7 eel incremento de tiempo de crear la región paralela es 14218 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 8 eel incremento de tiempo de crear la región paralela es 16635 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 9 eel incremento de tiempo de crear la región paralela es 13637 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 10 eel incremento de tiempo de crear la región paralela es 15609 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 11 eel incremento de tiempo de crear la región paralela es 15743 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 12 eel incremento de tiempo de crear la región paralela es 16683 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 13 eel incremento de tiempo de crear la región paralela es 15217 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 14 eel incremento de tiempo de crear la región paralela es 14613 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 15 eel incremento de tiempo de crear la región paralela es 13468 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 16 eel incremento de tiempo de crear la región paralela es 15143 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 17 eel incremento de tiempo de crear la región paralela es 14111 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 18 eel incremento de tiempo de crear la región paralela es 16037 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 19 eel incremento de tiempo de crear la región paralela es 15832 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 20 eel incremento de tiempo de crear la región paralela es 15676 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 21 eel incremento de tiempo de crear la región paralela es 14100 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 22 eel incremento de tiempo de crear la región paralela es 16456 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 23 eel incremento de tiempo de crear la región paralela es 14276 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 24 eel incremento de tiempo de crear la región paralela es 16517 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+ INICIO ****************************************************************** 
+Para tamaño de vector de 500000 elementos:SECUENCIAL:Tiempo transcurrido 36009micro segundos
+PARALELO: Tiempo transcurrido 11850micro segundos
+ *********** CONCLUSIONES ***********************
+PARALELO: se obtiene mejor rendimiento con un tiempo de 11850micro segundos frente a 36009micro segundos
+Soy el hilo19pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo11pasando una seccion critica
+Soy el hilo3pasando la barrera
+Soy el hilo3pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo12pasando una seccion critica
+Soy el hilo7pasando la barrera
+Soy el hilo7pasando una seccion critica
+Soy el hilo16pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo1pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo17pasando la barrera
+Soy el hilo4pasando una seccion critica
+Soy el hilo5pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo10pasando la barrera
+Soy el hilo17pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo0pasando la barrera
+Soy el hilo18pasando la barrera
+Soy el hilo17pasando la barrera
+Soy el hilo3pasando la barrera
+Soy el hilo7pasando la barrera
+Soy el hilo19pasando la barrera
+Soy el hilo6pasando la barrera
+Soy el hilo11pasando la barrera
+Soy el hilo4pasando la barrera
+Soy el hilo14pasando la barrera
+Soy el hilo10pasando la barrera
+Soy el hilo9pasando la barrera
+Soy el hilo13pasando la barrera
+Soy el hilo1pasando la barrera
+Soy el hilo5pasando la barrera
+Soy el hilo2pasando la barrera
+Soy el hilo12pasando la barrera
+Soy el hilo8pasando la barrera
+Soy el hilo16pasando la barrera
+Soy el hilo15pasando la barrera
+Soy el hilo0pasando una seccion critica
+Soy el hilo18pasando una seccion critica
+Soy el hilo17pasando una seccion critica
+Soy el hilo3pasando una seccion critica
+Soy el hilo7pasando una seccion critica
+Soy el hilo19pasando una seccion critica
+Soy el hilo9pasando una seccion critica
+Soy el hilo8pasando una seccion critica
+Soy el hilo14pasando una seccion critica
+Soy el hilo2pasando una seccion critica
+Soy el hilo13pasando una seccion critica
+Soy el hilo5pasando una seccion critica
+Soy el hilo12pasando una seccion critica
+Soy el hilo16pasando una seccion critica
+Soy el hilo11pasando una seccion critica
+Soy el hilo10pasando una seccion critica
+Soy el hilo15pasando una seccion critica
+Soy el hilo6pasando una seccion critica
+Soy el hilo1pasando una seccion critica
+Soy el hilo4pasando una seccion critica
+Con un numero de hilos = 1 eel incremento de tiempo de crear la región paralela es 33001 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 1 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 2 eel incremento de tiempo de crear la región paralela es 29183 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 2 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 3 eel incremento de tiempo de crear la región paralela es 29655 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 3 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 4 eel incremento de tiempo de crear la región paralela es 29642 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 4 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 5 eel incremento de tiempo de crear la región paralela es 31830 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 5 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 6 eel incremento de tiempo de crear la región paralela es 30146 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 6 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 7 eel incremento de tiempo de crear la región paralela es 29297 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 7 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 8 eel incremento de tiempo de crear la región paralela es 29064 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 8 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 9 eel incremento de tiempo de crear la región paralela es 29657 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 9 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 10 eel incremento de tiempo de crear la región paralela es 28845 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 10 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 11 eel incremento de tiempo de crear la región paralela es 28867 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 11 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 12 eel incremento de tiempo de crear la región paralela es 31801 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 12 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 13 eel incremento de tiempo de crear la región paralela es 29857 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 13 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 14 eel incremento de tiempo de crear la región paralela es 30665 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 14 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 15 eel incremento de tiempo de crear la región paralela es 30055 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 15 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 16 eel incremento de tiempo de crear la región paralela es 28845 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 16 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 17 eel incremento de tiempo de crear la región paralela es 29308 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 17 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 18 eel incremento de tiempo de crear la región paralela es 29906 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 18 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 19 eel incremento de tiempo de crear la región paralela es 31766 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 19 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 20 eel incremento de tiempo de crear la región paralela es 30875 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 20 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 21 eel incremento de tiempo de crear la región paralela es 29760 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 21 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 22 eel incremento de tiempo de crear la región paralela es 30743 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 22 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 23 eel incremento de tiempo de crear la región paralela es 30035 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 23 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos
+Con un numero de hilos = 24 eel incremento de tiempo de crear la región paralela es 29518 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de poner una barrera es 0 micro segundos
+Con un numero de hilos = 24 el incremento de tiempo de entrar en una seccion critica es 0 micro segundos

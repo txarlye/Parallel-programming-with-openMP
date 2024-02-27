@@ -1,0 +1,272 @@
+ *************************************************************************** 
+ *************************************************************************** 
+Nuestra matriz es: 9*9
+578971413
+
+189937985
+
+533829885
+
+856967594
+
+856569543
+
+756989895
+
+791777962
+
+859246578
+
+194681138
+
+Calculo por proceso SECUENCIAL: 
+SECUENCIAL: El total de la matriz es 481 y la media es 5
+SECUENCIAL:Tiempo transcurrido 372micro segundos
+ *************************************************************************** 
+Calculo por proceso PARALELO: 
+El hilo [8] ha introducido el valor de 5 al total 
+El hilo [0] ha introducido el valor de 8 al total 
+El hilo [3] ha introducido el valor de 1 al total 
+El hilo [1] ha introducido el valor de 7 al total 
+El hilo [5] ha introducido el valor de 5 al total 
+El hilo [2] ha introducido el valor de 7 al total 
+El hilo [0] ha introducido el valor de 5 al total 
+El hilo [3] ha introducido el valor de 8 al total 
+El hilo [1] ha introducido el valor de 5 al total 
+El hilo [5] ha introducido el valor de 3 al total 
+El hilo [2] ha introducido el valor de 8 al total 
+El hilo [0] ha introducido el valor de 6 al total 
+El hilo [3] ha introducido el valor de 9 al total 
+El hilo [1] ha introducido el valor de 6 al total 
+El hilo [5] ha introducido el valor de 3 al total 
+El hilo [2] ha introducido el valor de 9 al total 
+El hilo [0] ha introducido el valor de 9 al total 
+El hilo [3] ha introducido el valor de 9 al total 
+El hilo [1] ha introducido el valor de 9 al total 
+El hilo [5] ha introducido el valor de 8 al total 
+El hilo [2] ha introducido el valor de 7 al total 
+El hilo [0] ha introducido el valor de 6 al total 
+El hilo [3] ha introducido el valor de 3 al total 
+El hilo [1] ha introducido el valor de 8 al total 
+El hilo [5] ha introducido el valor de 2 al total 
+El hilo [2] ha introducido el valor de 1 al total 
+El hilo [0] ha introducido el valor de 7 al total 
+El hilo [3] ha introducido el valor de 7 al total 
+El hilo [1] ha introducido el valor de 9 al total 
+El hilo [5] ha introducido el valor de 9 al total 
+El hilo [2] ha introducido el valor de 4 al total 
+El hilo [0] ha introducido el valor de 5 al total 
+El hilo [3] ha introducido el valor de 9 al total 
+El hilo [1] ha introducido el valor de 8 al total 
+El hilo [5] ha introducido el valor de 8 al total 
+El hilo [2] ha introducido el valor de 1 al total 
+El hilo [0] ha introducido el valor de 9 al total 
+El hilo [3] ha introducido el valor de 8 al total 
+El hilo [1] ha introducido el valor de 9 al total 
+El hilo [5] ha introducido el valor de 8 al total 
+El hilo [2] ha introducido el valor de 3 al total 
+El hilo [2] ha introducido el valor de 4 al total 
+El hilo [2] ha introducido el valor de 5 al total 
+El hilo [2] ha introducido el valor de 8 al total 
+El hilo [4] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 8 al total 
+El hilo [7] ha introducido el valor de 5 al total 
+El hilo [7] ha introducido el valor de 1 al total 
+El hilo [8] ha introducido el valor de 5 al total 
+El hilo [4] ha introducido el valor de 5 al total 
+El hilo [7] ha introducido el valor de 9 al total 
+El hilo [8] ha introducido el valor de 6 al total 
+El hilo [4] ha introducido el valor de 9 al total 
+El hilo [7] ha introducido el valor de 4 al total 
+El hilo [8] ha introducido el valor de 5 al total 
+El hilo [4] ha introducido el valor de 2 al total 
+El hilo [7] ha introducido el valor de 6 al total 
+El hilo [8] ha introducido el valor de 6 al total 
+El hilo [4] ha introducido el valor de 4 al total 
+El hilo [7] ha introducido el valor de 8 al total 
+El hilo [8] ha introducido el valor de 9 al total 
+El hilo [4] ha introducido el valor de 6 al total 
+El hilo [7] ha introducido el valor de 1 al total 
+El hilo [8] ha introducido el valor de 5 al total 
+El hilo [4] ha introducido el valor de 5 al total 
+El hilo [7] ha introducido el valor de 1 al total 
+El hilo [8] ha introducido el valor de 4 al total 
+El hilo [4] ha introducido el valor de 7 al total 
+El hilo [7] ha introducido el valor de 3 al total 
+El hilo [8] ha introducido el valor de 3 al total 
+El hilo [8] ha introducido el valor de 8 al total 
+El hilo [8] ha introducido el valor de 5 al total 
+El hilo [8] ha introducido el valor de 8 al total 
+El hilo [8] ha introducido el valor de 9 al total 
+El hilo [6] ha introducido el valor de 1 al total 
+El hilo [6] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 9 al total 
+El hilo [6] ha introducido el valor de 6 al total 
+El hilo [6] ha introducido el valor de 2 al total 
+Un total de 24 hilos 
+PARALELO: El total de la matriz es 481 y la media es 5
+PARALELO:Tiempo transcurrido 139295micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se optiene mejor rendimiento para matriz de [9][9] con un tiempo de 372micro segundos frente a 139295micro segundos
+ *************************************************************************** 
+Nuestra matriz es: 9*9
+215115617
+
+563695767
+
+794154747
+
+626541857
+
+355648517
+
+662497795
+
+377714446
+
+948895894
+
+257637446
+
+Calculo por proceso SECUENCIAL: 
+SECUENCIAL: El total de la matriz es 425 y la media es 5
+SECUENCIAL:Tiempo transcurrido 352micro segundos
+ *************************************************************************** 
+Calculo por proceso PARALELO: 
+El hilo [4] ha introducido el valor de 2 al total 
+El hilo [0] ha introducido el valor de 3 al total 
+El hilo [4] ha introducido el valor de 7 al total 
+El hilo [2] ha introducido el valor de 3 al total 
+El hilo [6] ha introducido el valor de 6 al total 
+El hilo [3] ha introducido el valor de 1 al total 
+El hilo [0] ha introducido el valor de 5 al total 
+El hilo [4] ha introducido el valor de 9 al total 
+El hilo [2] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 2 al total 
+El hilo [3] ha introducido el valor de 5 al total 
+El hilo [0] ha introducido el valor de 5 al total 
+El hilo [4] ha introducido el valor de 4 al total 
+El hilo [2] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 6 al total 
+El hilo [3] ha introducido el valor de 1 al total 
+El hilo [0] ha introducido el valor de 6 al total 
+El hilo [4] ha introducido el valor de 1 al total 
+El hilo [2] ha introducido el valor de 7 al total 
+El hilo [6] ha introducido el valor de 5 al total 
+El hilo [3] ha introducido el valor de 1 al total 
+El hilo [0] ha introducido el valor de 4 al total 
+El hilo [4] ha introducido el valor de 5 al total 
+El hilo [2] ha introducido el valor de 1 al total 
+El hilo [6] ha introducido el valor de 4 al total 
+El hilo [3] ha introducido el valor de 5 al total 
+El hilo [0] ha introducido el valor de 8 al total 
+El hilo [4] ha introducido el valor de 4 al total 
+El hilo [2] ha introducido el valor de 4 al total 
+El hilo [6] ha introducido el valor de 1 al total 
+El hilo [3] ha introducido el valor de 6 al total 
+El hilo [0] ha introducido el valor de 5 al total 
+El hilo [4] ha introducido el valor de 7 al total 
+El hilo [2] ha introducido el valor de 4 al total 
+El hilo [6] ha introducido el valor de 8 al total 
+El hilo [3] ha introducido el valor de 1 al total 
+El hilo [0] ha introducido el valor de 1 al total 
+El hilo [4] ha introducido el valor de 4 al total 
+El hilo [2] ha introducido el valor de 4 al total 
+El hilo [6] ha introducido el valor de 2 al total 
+El hilo [8] ha introducido el valor de 9 al total 
+El hilo [7] ha introducido el valor de 6 al total 
+El hilo [5] ha introducido el valor de 5 al total 
+El hilo [1] ha introducido el valor de 5 al total 
+El hilo [3] ha introducido el valor de 7 al total 
+El hilo [3] ha introducido el valor de 7 al total 
+El hilo [3] ha introducido el valor de 7 al total 
+El hilo [3] ha introducido el valor de 5 al total 
+El hilo [8] ha introducido el valor de 6 al total 
+El hilo [1] ha introducido el valor de 6 al total 
+El hilo [5] ha introducido el valor de 3 al total 
+El hilo [1] ha introducido el valor de 7 al total 
+El hilo [1] ha introducido el valor de 4 al total 
+El hilo [7] ha introducido el valor de 7 al total 
+El hilo [8] ha introducido el valor de 6 al total 
+El hilo [1] ha introducido el valor de 8 al total 
+El hilo [7] ha introducido el valor de 6 al total 
+El hilo [8] ha introducido el valor de 9 al total 
+El hilo [1] ha introducido el valor de 8 al total 
+El hilo [7] ha introducido el valor de 3 al total 
+El hilo [8] ha introducido el valor de 5 al total 
+El hilo [1] ha introducido el valor de 9 al total 
+El hilo [7] ha introducido el valor de 7 al total 
+El hilo [8] ha introducido el valor de 7 al total 
+El hilo [1] ha introducido el valor de 5 al total 
+El hilo [7] ha introducido el valor de 4 al total 
+El hilo [8] ha introducido el valor de 6 al total 
+El hilo [1] ha introducido el valor de 8 al total 
+El hilo [7] ha introducido el valor de 4 al total 
+El hilo [8] ha introducido el valor de 7 al total 
+El hilo [8] ha introducido el valor de 9 al total 
+El hilo [7] ha introducido el valor de 2 al total 
+El hilo [5] ha introducido el valor de 4 al total 
+El hilo [5] ha introducido el valor de 4 al total 
+El hilo [5] ha introducido el valor de 6 al total 
+El hilo [5] ha introducido el valor de 9 al total  
+El hilo [5] ha introducido el valor de 7 al total 
+El hilo [5] ha introducido el valor de 6 al total 
+El hilo [5] ha introducido el valor de 7 al total 
+El hilo [5] ha introducido el valor de 9 al total 
+El hilo [5] ha introducido el valor de 5 al total 
+Un total de 24 hilos 
+PARALELO: El total de la matriz es 425 y la media es 5
+PARALELO: Tiempo transcurrido 139647micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se obtiene mejor rendimiento para matriz de [9][9] con un tiempo de 352micro segundos frente a 139647micro segundos
+ *************************************************************************** 
+Nuestra matriz es: 20*20
+Calculo por proceso SECUENCIAL: 
+SECUENCIAL: El total de la matriz es 1959 y la media es 4
+SECUENCIAL:Tiempo transcurrido 986micro segundos
+ *************************************************************************** 
+Calculo por proceso PARALELO: 
+Un total de 24 hilos 
+PARALELO: El total de la matriz es 1959 y la media es 4
+PARALELO: Tiempo transcurrido 34609micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se obtiene mejor rendimiento para matriz de [20][20] con un tiempo de 986micro segundos frente a 34609micro segundos
+ *************************************************************************** 
+Nuestra matriz es: 50*50
+Calculo por proceso SECUENCIAL: 
+SECUENCIAL: El total de la matriz es 12514 y la media es 5
+SECUENCIAL:Tiempo transcurrido 1336micro segundos
+ *************************************************************************** 
+Calculo por proceso PARALELO: 
+Un total de 24 hilos 
+PARALELO: El total de la matriz es 12514 y la media es 5
+PARALELO: Tiempo transcurrido 23436micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se obtiene mejor rendimiento para matriz de [50][50] con un tiempo de 1336micro segundos frente a 23436micro segundos
+ *************************************************************************** 
+Nuestra matriz es: 100*100
+Calculo por proceso SECUENCIAL: 
+SECUENCIAL: El total de la matriz es 49652 y la media es 4
+SECUENCIAL:Tiempo transcurrido 1740micro segundos
+ *************************************************************************** 
+Calculo por proceso PARALELO: 
+Un total de 24 hilos 
+PARALELO: El total de la matriz es 49652 y la media es 4
+PARALELO: Tiempo transcurrido 40526micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se obtiene mejor rendimiento para matriz de [100][100] con un tiempo de 1740micro segundos frente a 40526micro segundos
+ *************************************************************************** 
+Nuestra matriz es: 100*100
+Calculo por proceso SECUENCIAL: 
+SECUENCIAL: El total de la matriz es 50527 y la media es 5
+SECUENCIAL:Tiempo transcurrido 1947micro segundos
+ *************************************************************************** 
+Calculo por proceso PARALELO: 
+Un total de 24 hilos 
+PARALELO: El total de la matriz es 50527 y la media es 5
+PARALELO: Tiempo transcurrido 40493micro segundos
+ *********** CONCLUSIONES ***********************
+SECUENCIAL: se obtiene mejor rendimiento para matriz de [100][100] con un tiempo de 1947micro segundos frente a 40493micro segundos
+ *************************************************************************** 

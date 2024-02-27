@@ -1,0 +1,60 @@
+ *************************************************************************** 
+ *************************************************************************** 
+ - SECUENCIAL - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 4.20026e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.7e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.0014833  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.136863  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 12.9574  segundos
+ - - PARALELO - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 7.20005e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.35997e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 1.65999e-05  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.000456  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 1.19e-05  segundos
+para tamanio de Array: 1000000 - tiempo de ejecucion: 2.46004e-05  segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ - SECUENCIAL - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 3.09991e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.7e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.0014894  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.136762  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 12.9598  segundos
+ - - PARALELO - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 3.39979e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.75001e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.0004208  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 1.36001e-05  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 6.50017e-06  segundos
+para tamanio de Array: 1000000 - tiempo de ejecucion: 3.00999e-05  segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ - SECUENCIAL - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 3.09991e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.68999e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.0014735  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.138336  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 12.9618  segundos
+ - - PARALELO - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 3.7998e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.37003e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.0004514  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.0004755  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 0.0005013  segundos
+para tamanio de Array: 1000000 - tiempo de ejecucion: 2.83998e-05  segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ - SECUENCIAL - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 4.69992e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.68999e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.0015576  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.137937  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 12.9575  segundos
+ - - PARALELO - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+para tamanio de Array: 10 - tiempo de ejecucion: 3.7998e-06  segundos
+para tamanio de Array: 100 - tiempo de ejecucion: 2.40002e-05  segundos
+para tamanio de Array: 1000 - tiempo de ejecucion: 0.000466  segundos
+para tamanio de Array: 10000 - tiempo de ejecucion: 0.000488  segundos
+para tamanio de Array: 100000 - tiempo de ejecucion: 2.10013e-06  segundos
+para tamanio de Array: 1000000 - tiempo de ejecucion: 0.0004219  segundos

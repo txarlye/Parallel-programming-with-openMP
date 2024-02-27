@@ -1,0 +1,132 @@
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 10
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1399259889
+El tiempo de ejecucion fue: 0.0247557999 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 5.9798519778
+El tiempo de ejecucion fue: 0.0013164000 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 100
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415759869
+El tiempo de ejecucion fue: 0.0021331001 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2531519738
+El tiempo de ejecucion fue: 0.0012013998 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415924869
+El tiempo de ejecucion fue: 0.0020601000 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2801849738
+El tiempo de ejecucion fue: 0.0011924000 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 10000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926519
+El tiempo de ejecucion fue: 0.0093949998 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2828853038
+El tiempo de ejecucion fue: 0.0019915001 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 100000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 0.0137211999 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831553071
+El tiempo de ejecucion fue: 0.0058574001 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1000000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 0.0059239999 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831823072
+El tiempo de ejecucion fue: 0.0390623999 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 10000000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 0.0332058000 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831850072
+El tiempo de ejecucion fue: 0.2830502999 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 100000000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 0.1962186999 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831852772
+El tiempo de ejecucion fue: 1.9882595001 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1000000000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 1.6704891000 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831853042
+El tiempo de ejecucion fue: 18.8564798001 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1410065408
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 2.2571556999 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831853051
+El tiempo de ejecucion fue: 26.4839027999 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1215752192
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 1.9719276002 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831853047
+El tiempo de ejecucion fue: 22.8170888000 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1316134912
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 2.1635500002 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831853049
+El tiempo de ejecucion fue: 24.6848690000 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 276447232
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 0.5241808000 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831852963
+El tiempo de ejecucion fue: 5.1540744000 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1874919424
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 3.1054283001 segundos
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO SECUENCIAL: Aproximacion de pi con regla del trapecio: 6.2831853056
+El tiempo de ejecucion fue: 35.4248372000 segundos
+ *************************************************************************** 
+ *************************************************************************** 
+ para N = 1569325056
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+EJECUTADO EN PARALELO: Aproximacion de pi con regla del trapecio: 3.1415926536
+El tiempo de ejecucion fue: 2.5237534000 segundos
