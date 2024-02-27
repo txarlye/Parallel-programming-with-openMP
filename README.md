@@ -4,7 +4,7 @@ Parallel programming with C++
 
 ## 1. Dado el siguiente algoritmo, calcular la solución paralela:  
 
-![App Screenshot]([https://i.imgur.com/qLiW5KO.jpeg](https://i.imgur.com/tkL6xlS.jpeg))    
+![App Screenshot](https://i.imgur.com/tkL6xlS.jpeg)    
 
 ### a) Paralelizar usando OpenMP.
 
