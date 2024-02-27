@@ -3,7 +3,14 @@ Parallel programming with C++
 
 
 ## 1. Dado el siguiente algoritmo, calcular la solución paralela:  
+
+![App Screenshot]([https://i.imgur.com/qLiW5KO.jpeg](https://i.imgur.com/tkL6xlS.jpeg))    
+
 ### a) Paralelizar usando OpenMP.
+
+
+
+
 ### b) Medir el overhead añadido por los constructores de OpenMP a la ejecución del programa: 
 ### a) Tiempo mínimo que añade la creación/destrucción de una región paralela, en función del número de hilos generados
 ### b) Coste de una barrera de sincronización en función del número de hilos que se sincronizan.
