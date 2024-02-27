@@ -1,2 +1,2 @@
-# OpenMP_C-
+# OpenMP C++
 Parallel programming with C++
